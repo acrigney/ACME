@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.Conventions", "ACME.Conventions\ACME.Conventions.csproj", "{956ABAD5-A09A-43A3-9E8A-6A51BAC172F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.MessageProcessor", "ACME.MessageProcessor\ACME.MessageProcessor.csproj", "{206E9034-7B30-4938-A546-879C2D2BB19D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.TestPublisher", "ACME.TestPublisher\ACME.TestPublisher.csproj", "{7036A49B-359F-4BC7-AFBA-DE3C7AB41986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.Shared", "ACME.Shared\ACME.Shared.csproj", "{5686FE6C-A5E3-40D1-A6BD-25F94DA612F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.TestIACMEMessageSubscriber", "ACME.TestIACMEMessageSubscriber\ACME.TestIACMEMessageSubscriber.csproj", "{6A699A4E-F2FD-4B71-AF73-199B499482BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.TestSpecificMessageSubscriber", "ACME.TestSpecificMessageHandlerSubscriber\ACME.TestSpecificMessageSubscriber.csproj", "{28DE496A-3885-410E-A0B8-004FAEFF9378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TracerX-Viewer", "TracerX-Viewer\TracerX-Viewer.csproj", "{E301635B-84D6-4A08-9856-B7D5C0BCD918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{956ABAD5-A09A-43A3-9E8A-6A51BAC172F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{956ABAD5-A09A-43A3-9E8A-6A51BAC172F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{956ABAD5-A09A-43A3-9E8A-6A51BAC172F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{956ABAD5-A09A-43A3-9E8A-6A51BAC172F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206E9034-7B30-4938-A546-879C2D2BB19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206E9034-7B30-4938-A546-879C2D2BB19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206E9034-7B30-4938-A546-879C2D2BB19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206E9034-7B30-4938-A546-879C2D2BB19D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7036A49B-359F-4BC7-AFBA-DE3C7AB41986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7036A49B-359F-4BC7-AFBA-DE3C7AB41986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7036A49B-359F-4BC7-AFBA-DE3C7AB41986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7036A49B-359F-4BC7-AFBA-DE3C7AB41986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5686FE6C-A5E3-40D1-A6BD-25F94DA612F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5686FE6C-A5E3-40D1-A6BD-25F94DA612F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5686FE6C-A5E3-40D1-A6BD-25F94DA612F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5686FE6C-A5E3-40D1-A6BD-25F94DA612F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A699A4E-F2FD-4B71-AF73-199B499482BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A699A4E-F2FD-4B71-AF73-199B499482BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A699A4E-F2FD-4B71-AF73-199B499482BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A699A4E-F2FD-4B71-AF73-199B499482BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DE496A-3885-410E-A0B8-004FAEFF9378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DE496A-3885-410E-A0B8-004FAEFF9378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DE496A-3885-410E-A0B8-004FAEFF9378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DE496A-3885-410E-A0B8-004FAEFF9378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E301635B-84D6-4A08-9856-B7D5C0BCD918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E301635B-84D6-4A08-9856-B7D5C0BCD918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E301635B-84D6-4A08-9856-B7D5C0BCD918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E301635B-84D6-4A08-9856-B7D5C0BCD918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
